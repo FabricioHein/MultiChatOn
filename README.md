@@ -1,12 +1,12 @@
-[![Doação](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=TZ26S3D3Q4PE6)
-[![Discord Chat](https://img.shields.io/discord/1046597742878789663.svg?logo=discord)](https://discord.gg/vThFjJWX)
 
-# Izing
+
+# MultiChatOn
 
 Um sistema para gestão de atendimento multicanais centralizado.
 
 Sistema possui o backend e canais baseado em:
 
+- izing.io 
 - Whatsapp [whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js)
 - Telegram [telegraf](github.com/telegraf/telegraf)
 - Instagram [instagram-private-api](https://github.com/dilame/instagram-private-api)
@@ -20,15 +20,6 @@ Esse projeto tem inspiração e também é baseado no projeto fantástico [whati
 
 **IMPORTANTE**: não garantimos que a utilização desta ferramenta não irá gerar bloqueio nas contas utilizadas. São bots que em sua maioria utilizam APIs secundarias para comunicação com os fornecedores dos serviços. Use com responsabilidade!
 
-## Screenshots
-
->![Doação](screenshots/Bot.gif)
-___  
->![Doação](screenshots/dashboard.gif)
-___
->![Doação](screenshots/izing.gif)
-___
-
 ## Principais funcionalidades
 
 - Multíplos canais de atendimento ✅
@@ -41,7 +32,7 @@ ___
 
 ## Docker compose Localhost
 
-Execute comando na pasta raiz do projeto (izing.io)
+Execute comando na pasta raiz do projeto (MultiChatOn)
 
 ```
 docker compose -f "docker-compose.yml" up -d --build
