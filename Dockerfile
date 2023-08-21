@@ -4,10 +4,10 @@ WORKDIR /app
 
 RUN npm install -g @quasar/cli
 
-COPY ./frontend/package*.json .
-COPY ./frontend/quasar.conf.js .
+COPY ./frontend/package*.json ./
+COPY ./frontend/quasar.conf.js ./
 RUN npm install
-COPY ./frontend/ .
+COPY ./frontend/ ./
 
 RUN quasar build -m pwa
 

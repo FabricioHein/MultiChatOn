@@ -22,10 +22,10 @@ RUN chmod +x /usr/local/bin/dumb-init
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
 
 WORKDIR /usr/src/app
-COPY package*.json .
+COPY package*.json ./
 RUN npm install
 
-COPY . .
+COPY . ./
 RUN npm run build
 
 ENV NODE_ENV=production
